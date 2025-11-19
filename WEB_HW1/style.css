@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffe6e6, #fff);
+    color: #222;
+    margin: 30px;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #cc0000;
+    background-color: #fff3f3;
+    border: 3px double #cc0000;
+    padding: 10px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 0 15px #ff9999;
+}
+
+h3 {
+    color: #b30000;
+    border-bottom: 2px solid #b30000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #b30000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    background-color: #b30000;
+    padding: 3px 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+}
+
+.city-table a:hover {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    color: inherit !important;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 2px solid #ffcccc;
+    margin: 30px auto;
+    box-shadow: 0 0 20px #ffc2c2;
+}
+
+td {
+    background-color: #fff;
+    border: 1px solid #f0b0b0;
+    padding: 15px;
+    text-align: right;
+}
+
+img {
+    border: 3px solid #ffb3b3;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #ffcccc;
+}
+
+nav {
+    background-color: #fff0f0;
+    border: 2px solid #ffb3b3;
+    padding: 2px;
+    width: 30%;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #ffd6d6;
+}
+
+footer {
+    background-color: #fff0f0;
+    border-top: 3px double #cc0000;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #b30000;
+    padding: 10px;
+    border-radius: 6px;
+}
